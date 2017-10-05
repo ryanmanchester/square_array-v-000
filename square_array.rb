@@ -2,9 +2,12 @@ require 'pry'
 
 def square_array(array)
   # your code here
-  array.each ** 2
-
-
-
-
+  
+  
 end
+
+
+def square
+  2 ** 2 
+end
+square
