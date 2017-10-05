@@ -3,7 +3,8 @@ require 'pry'
 def square_array(array)
   # your code here
   arr = []
-  array.each { |i| arr << i ** 2}
+  array.each do |i|
+    i ** 2
   arr
 
 end
